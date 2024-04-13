@@ -11,6 +11,7 @@ Descomentar las líneas:
 ```python
 #click('Guardar')
 #caso=Text('NÚMERO DE CASO').value.split()[-1]
+```
 
 
 ## Requerimientos
