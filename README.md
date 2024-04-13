@@ -7,7 +7,7 @@ driver = start_chrome(headless=True)
 ```
 Compruebe que `screenshot.png` fue generado para comprobar que el robot funcionó.
 
-Descomentar las líneas:
+Descomentar las siguientes líneas para enviar al SSOFI y capturar el número de caso asignado:
 ```python
 #click('Guardar')
 #caso=Text('NÚMERO DE CASO').value.split()[-1]
