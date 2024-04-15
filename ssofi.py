@@ -1,5 +1,7 @@
 from helium import *
 from getpass import getpass
+from time import sleep
+
 
 # Parte de configuración
 user = input('Usuario:') # Usar asignado a la aplicación
