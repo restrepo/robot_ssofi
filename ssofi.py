@@ -20,11 +20,13 @@ write(user, into='Usuario')
 write(password, into='Clave')
 
 click('Ingresar')
+
+# Comentar si el Usuario tiene único rol el de 'Solicitante'
 click('Solicitante')
-
 sleep(1)
-
 click('Ingresar')
+
+# Continua para usuario con único rol
 click('Generar')
 
 sleep(1)
