@@ -1,11 +1,12 @@
+# def subir_ssofi(nombre,tipo,adjuntos) # adjuntos es lista
 from helium import *
 from getpass import getpass
 from time import sleep
 
 
 # Parte de configuración
-user = input('Usuario:') # Usar asignado a la aplicación
-password = password=getpass('Clave:') # Usar asignado a la aplicación
+user = input('Usuario:') #  Usar asignado a la aplicación SSOFI (¡El mismo para todos los usuarios SIGA! ej: jhon.jaramilloe) 
+password = getpass('Clave:') # Usar asignado a la aplicación SSOFI leido desde un archivo
 nombre = 'Juan Valdez' # obtener de SIGA
 tipo = 'investigación' # obtener de SIGA
 file1 = '/home/restrepo/Downloads/certificado_1711225622105.pdf' # obtener de SIGA
@@ -71,3 +72,4 @@ else:
     get_driver().save_screenshot('screenshot.png')
 
 kill_browser()
+#return caso
